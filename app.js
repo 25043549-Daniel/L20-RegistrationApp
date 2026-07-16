@@ -18,12 +18,12 @@ const db =mysql.createConnection({
     database: 'C237_usersdb'
 });
 
-const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'RP738964$',
-    database: 'C237_usersdb'
-});
+// const db = mysql.createConnection({
+//     host: 'localhost',
+//     user: 'root',
+//     password: 'RP738964$',
+//     database: 'C237_usersdb'
+// });
 
 db.connect((err) => {
     if (err) {
